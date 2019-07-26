@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body { font-family: 'Open Sans', Helvetica, sans-serif; }
+.header-right{ text-align:right; padding: 15px 0 0 0;}
+.app-header .navbar-brand{ padding:16px 0 20px 0;}
+.app-header .navbar-brand img { width:100%; }
+.app-header.navbar{ margin-bottom:0px;}
+.app-header .header-icon{ text-align:right; border:0px solid #ccc;margin: 0px 0;}
+.app-header .header-icon ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;  
+}
+.app-header .header-icon ul li {
+    display: inline-block;
+    border: 1px solid #444;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    line-height: 30px;
+}
+.app-header .header-icon2{ border:0px solid #ccc;margin: 0px 0;}
+.app-header .header-icon2 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0px 0 0;
+    text-align: center;
+    display:inline-block;  
+}
+.app-header .header-icon2 ul li {
+    display: inline-block;
+    
+}
+
+
+
+
+ .header-search .search-container .input-group-addon{ background-color: #0e573d; border-color: #0e573d; color:#fff}
+.about,.features,.announcements{ margin:30px 0;}
+
+.about h2,.about h3,.announcements h2,.announcements h3{ margin-top:0}
+.about .fa-stack { width: 1.2em; height: 1.2em; line-height: 1.2em;}
+.about .fa-stack-2x { font-size: 1.2em;}
+.about .circle {color: #0e573d;}
+.about .fa-inverse{font-size: .6em;-webkit-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition:-webkit-transform 0.5s;transition:transform 0.5s}
+.about .fa-inverse:hover {transform:rotateY(180deg);cursor:pointer;webkit-transform: rotateY(180deg); -webkit-transition: -webkit-transform 0.5s ease-in-out; }		
+
+.about .about_in { display:block; margin-right:20px; text-align:left; }
+.about .about_in ol { display:block; }
+.about .about_in ol li { padding:5px 0px }
+.hdn_border { background:#ddd; height:1px; display:block; margin-bottom:20px; }
+.border1 { background:#ddd; height:1px; display:block; margin:20px 0; }
+.hdn_border span { background:#0e573d ; height:3px; display:block; width:20%; margin-top:-2px; }
+.rgtbar { display:block; margin-left:20px; }
+.block1 { display:block; margin:0px; padding:20px; border:1px solid #eeeeee; margin-bottom:10px; }
+
+.search_block { display:block; text-align:right; margin:5px 0px 5px 0; padding:0px 0; float:right; width:42%; }
+.centers{
+	margin:25px 0 0 0;
+}
+.leftgrid{
+	float:left;
+}
+.rightgrid{
+	float:right;
+}
+.centers.name.secondchild{
+	float:right;
+}
+
+
+/*======online-store-page======*/
+
+
+.block1.full.bookdetails.first{
+	margin-top:10px;
+}
+.block1.full.bookdetails{
+	margin-top:20px;
+}
+.block1.full.bookdetails:hover{
+	border-color:#D2D2D2;
+}
+figure, .book-details, .priceCover, .authordetails, .bookDetails, .zoom-slider, .bookdetailscontainer, .bookdetailscontainer .price.details aside, .bookdetailscontainer .price.details p, .totalprice, .price.butn, .totalprice span, .bookdet, .totalprice, .price.butn p, .bookdetailscontainer .price.butn a, .comments li .star{
+	float:left;
+}
+figure{
+	width:20%;
+}
+.book-details{
+	width:80%;
+}
+.book-details h2,.bookdetailscontainer h2{
+	padding-bottom:10px;
+	margin-bottom:15px;
+	border-bottom:1px solid #ccc;
+}
+.book-details h2{
+	font-size:20px;
+}
+.book-details aside{
+	font-size:18px;
+	font-weight:600;
+	margin-bottom:10px;
+}
+.priceCover, .authordetails{
+	width:47%;
+}
+.authordetails p{
+	font-size:13px;
+	margin-bottom:2px;
+}
+.priceCover .cover{
+	font-size:16px;
+	color:#333;
+}
+.bookDetails{
+	margin-top:15px;
+	padding:5px 10px;
+	border-radius:3px;
+	font-size:13px;
+}
+.bookDetails:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+.tick{
+	font-size: 8px;
+    background-color: #0e573d;
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 1px 5px 0px 0px;
+    vertical-align: top;
+}
+.bookdetailscontainer{
+	width:55%;
+	margin-left:7%;
+}
+
+
+.bookdetailscontainer .price.butn, .bookdetailscontainer .starGroup{
+	width:50%;
+	margin:15px 0 0 5%;
+}
+.bookdetailscontainer .starGroup{
+	margin-top:10px;
+}
+.bookdetailscontainer .price.butn a{
+	width:100%;
+}
+.bookdetailscontainer .price.butn a, .writebtn, #pop-up-4 a#writereview{
+	padding:8px 23px;
+    background-color: #0e573d;
+    border-color: #0e573d;
+	color:#ffffff;
+	font-size:20px;
+	border-radius:3px;
+	text-align: center;
+}
+.bookdetailscontainer .price.butn a:hover, a.writebtn:hover{
+	text-decoration:none;
+}
+.bookdetailscontainer .price.butn p{
+	margin:5px 0 0 0;
+	font-size:13px;
+}
+.cloudzoom-lens > div{
+	display:none !important;
+}
+.starGroup{
+	float:left;
+	width: 50%;
+}
+.starGroup section {
+    float: left;
+	color: #585858;
+}
+
+
+.pop-up .close a {
+    font-size: 18px;
+    color: #d22;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icon-cross.png) no-repeat 0 0;
+    display: inline-block;
+}
+.pop-up .screen-reader-text {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.btn:hover, .btn:focus{
+	color:#fff;
+}
+#pop-up-4 a#writereview:focus{
+	text-decoration:none;
+}
+.accounting.comments li{
+	margin-top:5px;
+}
+
+
+
+
+/* div that surrounds Cloud Zoom image and content slider. */
+            #surround {
+                width:100%;
+                min-width: 256px;
+                max-width: 480px;
+            }
+            
+            /* Image expands to width of surround */
+            img.cloudzoom {
+                width:100%;
+            }
+            
+            /* CSS for slider - will expand to width of surround */
+            #slider1 {
+                margin:10px 20px 0px;
+                height:90px;
+                position:relative;
+				/*width:60%;*/
+            }
+			.zoom-slider{
+				width:38%;
+			}
+`
